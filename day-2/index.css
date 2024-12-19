@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e5e5e5; /* Light background for better contrast */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    margin: 20px;
+    color: #b30000; /* Christmas Red */
+    font-size: 2em;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    text-align: center;
+  }
+  
+  h4 {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-size: 1.2em;
+    color: #4CAF50; /* Christmas Green */
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .calendar-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Increase columns to 6 for a better fit */
+    gap: 10px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff; /* White background for the calendar */
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar-box {
+    background-color: #ff4d4d; /* Christmas Red */
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #ff0000; /* Darker red border */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .calendar-box:hover {
+    background-color: #d40000; /* Darker red when hovering */
+    transform: scale(1.1);
+  }
+  
+  .calendar-box.opened {
+    background-color: #FFD700; /* Gold color when opened */
+  }
+  
+  .calendar-box .fa-gift {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .calendar-box p {
+    margin: 0;
+  }
+  
+  .calendar-box p.day-number {
+    font-size: 1.5em;
+  }
+  
+  .calendar-box p.description {
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  
+  @media (max-width: 600px) {
+    .calendar-container {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns on smaller screens */
+    }
+  
+    h2 {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .calendar-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on very small screens */
+    }
+  }
+  
