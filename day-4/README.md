@@ -18,6 +18,11 @@ The app will:
 
 ---
 
+## Live Preview  
+Check out the Christmas Movie Emoji Quiz here: [Christmas Movie Emoji Quiz Live Demo](https://javascriptmas-day-4.netlify.app/)  
+
+---  
+ 
 ## Solution
 
 ### HTML Structure

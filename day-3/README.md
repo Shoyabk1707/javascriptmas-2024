@@ -2,7 +2,7 @@
 
 ## Challenge
 
-### Santa's Emoji Hack!
+### Santa's Emoji Hack! 🎅
 
 During Christmas, Santa wants to ban negative emojis, so when people use negative emoji shortcodes, he wants positive emojis to appear instead. Specifically, negative emojis such as 😠, 👎, and 🤦‍♂️ should be replaced with positive emojis like 🎁, 👏, and 🎅.
 
@@ -25,6 +25,11 @@ Additionally, extend the functionality to replace any negative emojis added dire
 
 **Output:**  
 "Just read your article 👏"
+
+---
+
+## Live Preview  
+Check out Santa's Emoji Hack here: [Santa's Emoji Hack Live Demo](https://javascriptmas-day-3.netlify.app/)  
 
 ---
 
@@ -147,3 +152,5 @@ console.log(enhancedEmojifyPhrase("She was crying :cry: and puking :puke:")); //
 - 📚 [`startsWith()` by MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith)
 - 📚 [`in` by MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in)
 - 📚 [`split()` by MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+
+ 
