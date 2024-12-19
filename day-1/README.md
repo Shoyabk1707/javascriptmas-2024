@@ -1,4 +1,4 @@
-# Grandpa's Christmas Gift List 🎅 - Day 01 Challenge
+# Day 01 Challenge - Grandpa's Christmas Gift List 🎅 
 
 ## Problem Statement 💪
 
